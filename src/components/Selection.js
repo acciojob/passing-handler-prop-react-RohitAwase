@@ -5,7 +5,7 @@ const Selection = ({applyColor, nextBackground }) => {
   return (
     <div
       className="fix-box"
-      style={style}
+      style={{ background: style.background }}
       onClick={() => applyColor(updateSelectionStyle)}
     ></div>
   );
