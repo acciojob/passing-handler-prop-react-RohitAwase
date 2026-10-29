@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Selection = ({applyColor }) => {
+const Selection = ({applyColor, nextBackground }) => {
   const [style, updateSelectionStyle] = useState({ background: "rgb(34, 193, 195)" });
   return (
     <div
