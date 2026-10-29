@@ -6,7 +6,7 @@ html, body {
 #master {
     height: 75%;
     vertical-align: baseline;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 #root {
@@ -28,26 +28,24 @@ html, body {
 
 button {
     padding: 15px 32px;
+    margin: 14px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 14px 12px;
     cursor: pointer;
     border-radius: 4px;
+    color: black;
 }
 
 .btn-blue {
     background: rgb(34, 193, 195);
-    color: black;
 }
 
 .btn-orange {
     background: rgb(221, 112, 18);
-    color: black;
 }
 
 .btn-green {
     background: rgb(44, 209, 88);
-    color: black;
 }
